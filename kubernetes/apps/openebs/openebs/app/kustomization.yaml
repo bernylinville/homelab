@@ -4,3 +4,4 @@ kind: Kustomization
 namespace: openebs
 resources:
   - ./helmrelease.yaml
+  - ./openebs-localpath.yaml
