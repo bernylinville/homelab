@@ -4,3 +4,4 @@ kind: Kustomization
 namespace: nvidia-device-plugin
 resources:
   - ./helmrelease.yaml
+  - ./runtime-class.yaml

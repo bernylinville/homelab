@@ -26,5 +26,6 @@ spec:
   uninstall:
     keepHistory: false
   values:
+    runtimeClassName: nvidia
     nodeSelector:
       kubernetes.io/hostname: y9000p
