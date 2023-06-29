@@ -28,14 +28,11 @@ spec:
   values:
     localprovisioner:
       enabled: true
-      image: "openebs/provisioner-localpv"
+      enableDeviceClass: false
+      enableHostpathClass: false
     ndm:
-      enabled: true
-      image: "openebs/node-disk-manager"
+      enabled: false
     ndmOperator:
-      enabled: true
-      image: "openebs/node-disk-operator"
-    ndmExporter:
-      enabled: true
-    helper:
-      image: "openebs/linux-utils"
+      enabled: false
+    nfs-provisioner:
+      enabled: false
