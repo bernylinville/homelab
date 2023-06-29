@@ -26,5 +26,16 @@ spec:
   uninstall:
     keepHistory: false
   values:
-    deviceClass:
+    localprovisioner:
       enabled: true
+      image: "openebs/provisioner-localpv"
+    ndm:
+      enabled: true
+      image: "openebs/node-disk-manager"
+    ndmOperator:
+      enabled: true
+      image: "openebs/node-disk-operator"
+    ndmExporter:
+      enabled: true
+    helper:
+      image: "openebs/linux-utils"
