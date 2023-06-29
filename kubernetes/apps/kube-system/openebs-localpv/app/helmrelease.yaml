@@ -9,7 +9,7 @@ spec:
   chart:
     spec:
       chart: openebs-localpv
-      version: 3.4.0
+      version: v3.4.0
       sourceRef:
         kind: HelmRepository
         name: openebs-localpv
