@@ -15,7 +15,6 @@ resources:
   - ./metallb.yaml
   - ./metrics-server.yaml
   - ./nvidia.yaml
-  - ./nvidia-device-plugin.yaml
   - ./openebs.yaml
   - ./openebs-localpv.yaml
   - ./prometheus-community.yaml
